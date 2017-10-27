@@ -9,12 +9,14 @@
   },
   "author": "Mostafa Eweda <mo.eweda@gmail.com>",
   "dependencies": {
+    "@linclark/pkg": "^1.0.2",
     "async": "~0.2.8",
     "express": "~3.2.4",
     "socket.io": "~0.9.14"
   },
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "test": "node test.js"
   },
   "devDependencies": {},
   "keywords": [
